@@ -1,4 +1,5 @@
 export interface PokemonType {
+  id: number,
   name: string;
   sprites: {
     back_default: string;
@@ -6,7 +7,6 @@ export interface PokemonType {
   };
   stats: ItemStat[];
 }
-
 export interface ItemStat {
   base_stat: string;
   stat: {

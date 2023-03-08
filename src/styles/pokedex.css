@@ -393,3 +393,7 @@
                       0 3px 0 hsl(0, 100%, 12%),
                       0 3.5px 0 hsl(0, 100%, 10%);
   }
+
+  .is-pointer:hover{
+    cursor: pointer;
+  }
